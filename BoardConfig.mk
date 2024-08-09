@@ -36,6 +36,7 @@ ODM_MANIFEST_NC_FILES := $(DEVICE_PATH)/sku/manifest_nc.xml
 # Kernel
 BOARD_BOOT_HEADER_VERSION := 2
 TARGET_KERNEL_CONFIG += vendor/ext_config/guamp-default.config
+TARGET_KERNEL_CLANG_VERSION := r487747c
 
 # Kernel Modules - Recovery
 BOARD_RECOVERY_KERNEL_MODULES_LOAD := $(strip $(shell cat $(DEVICE_PATH)/modules.load.recovery))
