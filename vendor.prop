@@ -29,3 +29,6 @@ debug.hwui.target_cpu_time_percent=30
 
 # Radio
 ro.vendor.radio.imei.sv=29
+
+# Disable SDM rotator downscaler
+vendor.display.disable_rotator_downscale=1
